@@ -35,3 +35,8 @@ La aplicación fue desarrollada utilizando un cluster particular para trabajos s
 - Rojo: error del sistema (puede ser fatal o no)
 - Amarillo: resultados de ejecución
 - Cian/Magenta: comandos ejecutados en segundo plano
+
+### Archivos de Ejemplo
+- ```lamhosts14```: archivo de configuración de KFRONT
+- ```ej2_mpi4.c```: programa MPI que realiza varias operaciones con matrices
+- ```test_mpi.c```: programa MPI que calcula el valor del número pi usando el método de Montecarlo
