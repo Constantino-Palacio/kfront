@@ -36,6 +36,9 @@ La aplicación fue desarrollada utilizando un cluster particular para trabajos s
 - Amarillo: resultados de ejecución
 - Cian/Magenta: comandos ejecutados en segundo plano
 
+### Diferencias de versionado
+Se incluyen dos versiones de KFRONT para su uso con LAM; se invocan mediante `./kfront` y `./kfront2`, respectivamente. La versión 2 presenta una salida más explícita para depuracíon de fallas y soporte para clusters heterogéneos, con compilación en cada uno de los nodos para garantizar el correcto funcionamiento. Además, la versión 2 hace un uso más eficiente de las funciones del entorno LAM/MPI.
+
 ### Archivos de Ejemplo
 - ```lamhosts14```: archivo de configuración de KFRONT
 - ```ej2_mpi4.c```: programa MPI que realiza varias operaciones con matrices
